@@ -1,0 +1,29 @@
+﻿<Module>
+  <Name value="Auto Run"/>
+  <Id value="MBAutoRun"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DefaultModule value="false"/>
+  <Official value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="CustomBattle"/>
+    <DependedModule Id="StoryMode" />
+    <DependedModule Id="BannerLib" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+        <Name value="MBAutoRun"/>
+        <DLLName value="MBAutoRun.dll"/>
+        <SubModuleClassType value="MBAutoRun.SubModule"/>
+        <Tags>
+          <Tag key="DedicatedServerType" value="none" />
+          <Tag key="IsNoRenderModeElement" value="false" />
+        </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls/>
+ </Module>
