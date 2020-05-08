@@ -35,7 +35,7 @@
       <HintPath>..\BattleSpawnBalancer\Resources\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="BannerLib.Input">
-      <HintPath>..\Libs\BannerLib\bin\Win64_Shipping_Client\BannerLib.Input.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\BannerLib\bin\Win64_Shipping_Client\BannerLib.Input.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
